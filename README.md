@@ -31,7 +31,7 @@ combines an ESP32-C3 and SX1281 with a U.FL link-antenna connector in a
 | Dimensions | 10.0 x 11.5 mm |
 | PCB | 6-layer, 1.0 mm |
 
-Technical write-up, part list and layout constraints: in the git history of AGENTS.md, `git show 0bc22ad:AGENTS.md`.
+Technical write-up, part list and layout constraints: [AGENTS.md](AGENTS.md).
 
 ## In the line
 
