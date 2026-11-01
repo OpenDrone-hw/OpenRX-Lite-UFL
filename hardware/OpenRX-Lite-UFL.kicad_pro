@@ -179,6 +179,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,6 +191,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -201,6 +203,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -495,6 +498,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -546,8 +550,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "50Ohm",
@@ -765,7 +769,6 @@
     ]
   ],
   "text_variables": {
-    "OPENDRONE_LIB": "${KIPRJMOD}/KiCad-Library",
     "DOC_FIRMWARE": "ExpressLRS",
     "DOC_HANDLE": "openrx-lite-ufl",
     "DOC_INPUT": "5 V solder pad",
@@ -774,7 +777,8 @@
     "DOC_PROTOCOL": "CRSF",
     "DOC_RATING": "5 V pad in to 3.3 V TLV75533 LDO; 2.4 GHz, up to 13 dBm (SX1281)",
     "DOC_TAGLINE": "ExpressLRS 2.4 GHz receiver, SX1281, U.FL antenna, 6-layer",
-    "DOC_VARIANT": "2.4 GHz U.FL"
+    "DOC_VARIANT": "2.4 GHz U.FL",
+    "OPENDRONE_LIB": "${KIPRJMOD}/KiCad-Library"
   },
   "tuning_profiles": {
     "meta": {
