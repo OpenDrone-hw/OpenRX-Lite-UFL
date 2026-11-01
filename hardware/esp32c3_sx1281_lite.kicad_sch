@@ -4749,6 +4749,10 @@
 		(uuid "78c6ad66-61fc-4de5-ba81-66874b93a38c")
 	)
 	(no_connect
+		(at 200.66 204.47)
+		(uuid "7eb40901-75da-43f7-a827-565c53adb532")
+	)
+	(no_connect
 		(at 107.95 196.85)
 		(uuid "811af91b-678f-4068-b129-df83393c0628")
 	)
@@ -5305,16 +5309,6 @@
 			(type default)
 		)
 		(uuid "791fee79-298c-488f-8694-28e178625273")
-	)
-	(wire
-		(pts
-			(xy 198.12 204.47) (xy 200.66 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c9ab801-18a7-4c6d-adb6-b244a2accd19")
 	)
 	(wire
 		(pts
@@ -7311,85 +7305,6 @@
 			(project "OpenRX-Lite-UFL"
 				(path "/8521861a-4fab-458b-8289-5e2efb91d906/d4225140-81df-42e7-abd7-e679e5ab5187"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 198.12 204.47 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3569af4e-a6ad-48e3-b143-00411f9bf520")
-		(property "Reference" "#PWR010"
-			(at 191.77 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 204.4699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db31efae-99b7-4156-af24-295dc16e85f9")
-		)
-		(instances
-			(project "OpenRX-Lite-UFL"
-				(path "/8521861a-4fab-458b-8289-5e2efb91d906/d4225140-81df-42e7-abd7-e679e5ab5187"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
