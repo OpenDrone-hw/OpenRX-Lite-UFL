@@ -62,6 +62,12 @@ version 3.5.0. Upload methods are UART, Wi-Fi and Betaflight passthrough. The
 authoritative GPIO and power values are in
 `firmware/OpenRX Lite-UFL 2400.json`.
 
+EU build (target key `lite_ufl_eu`): `firmware/OpenRX Lite-UFL 2400 EU.json`,
+the same pins with one power level, SX1281 chip setting 5 dBm (no PA; at most
+5 dBm at the U.FL connector after the filter). Built with
+`Regulatory_Domain_EU_CE_2400`. The conducted level is to be confirmed by
+measurement.
+
 ## Repo
 
 | | |
@@ -73,7 +79,7 @@ authoritative GPIO and power values are in
 | Local library | `hardware/lib.pretty/` and `hardware/lib.3dshapes/`, nickname `OpenRX-Shared` retained by the design; `shared/libs/OpenRX-Shared.3dshapes` is a compatibility link for embedded legacy model paths |
 | Shared library | `hardware/KiCad-Library/`, submodule of [OpenDrone-hw/KiCad-Library](https://github.com/OpenDrone-hw/KiCad-Library), nickname `OpenDrone`; exact component datasheets resolve through the project text variable `OPENDRONE_LIB` |
 | Design rules | `hardware/OpenRX-Lite-UFL.kicad_dru` |
-| Firmware target | `firmware/OpenRX Lite-UFL 2400.json` and `firmware/targets_entries.json` |
+| Firmware target | `firmware/OpenRX Lite-UFL 2400.json`, `firmware/OpenRX Lite-UFL 2400 EU.json` and `firmware/targets_entries.json` |
 
 ## Parts and datasheets
 
